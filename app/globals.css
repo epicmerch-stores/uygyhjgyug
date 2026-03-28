@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: 'Inter', system-ui, sans-serif; @apply text-gray-900 antialiased; }
+h1, h2, h3, h4 { font-family: 'Playfair Display', Georgia, serif; }
+
+:root {
+  --brand: #7c3aed;
+  --brand-dark: #6d28d9;
+  --brand-light: #ede9fe;
+}
